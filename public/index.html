@@ -4,8 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>File Storage</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="./getFilesFromServer.js" defer></script>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Завантаження файлів</h1>
+        <input type="file" id="fileInput" name="file" required />
+        <button id="uploadButton">Завантажити</button>
+        <h2>Список файлів:</h2>
+        <ul id="fileList"></ul>
+    </div>
 </body>
 </html>
