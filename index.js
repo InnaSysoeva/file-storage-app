@@ -13,5 +13,5 @@ app.use(fileRouter);
 app.use('/uploads', express.static(path.join(process.cwd(), 'uploads')));
 
 app.listen(port, () => {
-    console.log(`Server is running at port ${port}`);
+    console.log(`Server is running on port ${port}`);
 })
